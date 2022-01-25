@@ -1,0 +1,43 @@
+mat-toolbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  p {
+    font-size: small;
+  }
+}
+
+.content {
+  margin: 2em;
+}
+
+.settings {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 2em;
+
+  &-element {
+    margin-right: 1em;
+    margin-left: 1em;
+
+    &-filler {
+      flex-grow: 1;
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+  justify-content: space-between;
+  padding: 2em;
+  size: 1em;
+  font-style: italic;
+  font-size: small;
+  color: gray;
+}
